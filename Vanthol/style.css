@@ -1,0 +1,90 @@
+#headertext {
+  font-size:100pt;
+    border-bottom: solid;
+}
+#headertext2 {
+  font-size:50pt;
+  text-align: center;
+}
+#hobbies {
+  text-align: left;
+  font-size: 15pt;
+  border-top: solid;
+}
+
+#worldview {
+  text-align: left;
+  font-size: 15pt;
+  border-top: solid;
+}
+
+}
+
+#courses {
+  text-align: left;
+  font-size: 15pt;
+  border-top: solid;
+}
+
+#coursesmain {
+  background-color: #ffcd19;
+  padding: 10px;
+  text-align: center;
+  position:absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   overflow:hidden;
+   z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+
+#hobbiesmain {
+  background-color: #fcff50;
+  padding: 10px;
+  text-align: center;
+  position:absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   overflow:hidden;
+   z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+
+#worldviewmain {
+  background-color: #ffc1b1;
+  padding: 10px;
+  text-align: center;
+  position:absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   overflow:hidden;
+   z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+
+#target {
+  float:up
+}
+#header {
+  background-color: #F9F5E2;
+  padding: 10px;
+  text-align: center;
+  position:absolute;
+   top:0;
+   bottom:0;
+   left:0;
+   right:0;
+   overflow:hidden;
+   z-index:-1; /* Remove this line if it's not going to be a background! */
+}
+
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+  }
+  body{
+      height:100%; /* force the BODY element to match the height of the HTML element */
+  }
