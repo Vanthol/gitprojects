@@ -1,0 +1,150 @@
+#right{
+  z-index:6;
+  float: right;
+  position: relative;
+  top: 0px;
+  right: 350px;
+  background: #edf0f5;
+}
+#form {
+  margin-left: 15px;
+  margin-right: 0px;
+}
+
+#form input{
+  border: 1px solid #BDC7D8;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+#form select{
+  height:30px;
+  display:inline;
+}
+#up {
+  font-size: 36px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+  letter-spacing: normal;
+  text-rendering: optimizelegibility;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+#male {
+  margin-top:10px;
+}
+#name{
+  width:140px;
+}
+#birth{
+  margin-top: 5px;
+}
+#surname{
+  width:143px;
+}
+
+.rest{
+  width:310px;
+}
+#free{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#sign{
+  width: 200px;
+  height: 50px;
+      border-radius: 5px;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      letter-spacing: 1px;
+      position: relative;
+      text-shadow: 0 1px 2px rgba(0,0,0,.5);
+      background: linear-gradient(#67ae55, #578843);
+    background-color: #838881;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    top: -10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+
+#birthday-help{
+  max-width: 8px;
+  min-width: 8px;
+  font-size: 11px;
+
+}
+
+#click{
+  font-size:11px;
+  color: #777;
+  margin-left: 5px;
+}
+element.style {
+    font-size: 36px;
+}
+
+lZ86cv9aR90.css:1
+._3ma {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+}
+aVUNPideNLb.css:13
+._6v {
+    font-weight: bold;
+}
+aVUNPideNLb.css:13
+._6s {
+    color: #333;
+}
+aVUNPideNLb.css:13
+._6n {
+    font-size: 23px;
+    line-height: 120%;
+}
+zzGYjWDtUQR.css:22
+.mbs {
+    margin-bottom: 5px;
+}
+vjR-hxI8bjk.css:2
+h1, h2, h3, h4, h5, h6 {
+    color: #1d2129;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+Inherited from body.fbIndex.UIPage_LoggedOut.b_c3pyn-ahh.chrome.webkit.win.x1-5.Locale_en_US
+vjR-hxI8bjk.css:2
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+vjR-hxI8bjk.css:2
+body {
+    background: #fff;
+    color: #1d2129;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
