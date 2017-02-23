@@ -1,13 +1,25 @@
+
+
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
-  width: 400px;
+  width: 475px;
   /* To see the outline of the form */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
+  background-image: url(http://www.uniwallpaper.com/static/images/background-19.jpg);
+}
+#leave {
+  margin-left: 150px;
+}
+#bodybackground {
+  background-color: #B0E0E6;
 }
 
+#guestbook {
+  margin-left: 10px;
+}
 form div + div {
   margin-top: 1em;
 }
@@ -54,4 +66,9 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
+}
+
+#submit {
+  margin-top: 10px;
+  margin-left: 90px;
 }

@@ -25,6 +25,9 @@
   font-size: 15pt;
   border-top: solid;
 }
+#guest {
+  margin-left: -45px;
+}
 
 #coursesmain {
   background-color: #ffcd19;
