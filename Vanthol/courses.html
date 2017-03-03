@@ -1,28 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Vanthol's Courses</title>
 </head>
 <body>
+	<div id="wrapper">
+
+		<div id="nav"><a href="index.html">Home</a> | <a href="courses.html">Courses</a> | <a href="hobbies.html">Hobbies</a> | <a href="worldview.html">Worldview</a>
+		<div id="bg"></div>
+	</div>
 	<div id="coursesmain">
 		<div id="headertext2">
 	     COURSES
 		</div>
-	<IMG STYLE="position:absolute; TOP:120px; LEFT:500px; WIDTH:300px; HEIGHT:200px" src="http://www.3rdeyeacademy.com/images/course-of-study.jpg" ></img>
-		<br>
+	<IMG STYLE="position:absolute; TOP:170px; LEFT:500px; WIDTH:300px; HEIGHT:200px" src="http://www.3rdeyeacademy.com/images/course-of-study.jpg" ></img>
 
-		<div id="courses"
-		<br>
-		<ul>
-      <li>Red-Web Design</li>
-      <li>Orange-AP Calculus</li>
-      <li>Yellow-AP Environmental Science</li>
-      <li>Green-World Literature</li>
-      <li>Blue-AP Economics</li>
-      <li>Indigo-Chemistry</li>
-      <li>Violet-Study Hall</li>
-      <li>Grey-Christian Philosophy</li>
+		<ul id="courses">
+			<button id="toggler">Red</button>
+      <li id="red">Red-Web Design</li>
+			<script>
+					  $( "#toggler" ).click(function() {
+					  	$( "#red").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
+					<button id="toggler1">Orange</button>
+      <li id="orange">Orange-AP Calculus</li>
+			<script>
+						$( "#toggler1" ).click(function() {
+							$( "#orange").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
+				<button id="toggler2">Yellow</button>
+      <li id="yellow">Yellow-AP Environmental Science</li>
+			<script>
+						$( "#toggler2" ).click(function() {
+							$( "#yellow").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
+					<button id="toggler3">Green</button>
+      <li id="green">Green-World Literature</li>
+			<script>
+						$( "#toggler3" ).click(function() {
+							$( "#green").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
+					<button id="toggler4">Blue</button>
+					<script>
+								$( "#toggler4" ).click(function() {
+									$( "#blue").toggle("slow");
+									console.log("You clicked the toggle button!");
+								});
+						</script>
+      <li id="blue">Blue-AP Economics</li>
+				<button id="toggler5">Indigo</button>
+      <li id="indigo">Indigo-Chemistry</li>
+			<script>
+						$( "#toggler5" ).click(function() {
+							$( "#indigo").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
+					<button id="toggler6">Violet</button>
+      <li id="violet">Violet-Study Hall</li>
+			<script>
+						$( "#toggler6" ).click(function() {
+							$( "#violet").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
+					<button id="toggler7">Grey</button>
+      <li id="grey">Grey-Christian Philosophy</li>
+			<script>
+						$( "#toggler7" ).click(function() {
+							$( "#grey").toggle("slow");
+							console.log("You clicked the toggle button!");
+						});
+				</script>
       <br>
       <br>
     </p>
